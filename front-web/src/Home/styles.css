@@ -50,10 +50,6 @@
     transform: scale(1.01);
   }
   
-  .home-image svg {
-    width: 100%;
-  }
-  
   @media only screen and (max-width: 768px) {
     .home-container {
       height: auto;
@@ -84,5 +80,12 @@
   
     .home-image svg {
       width: 80%;
+    }
+  }
+  
+  @media (max-height: 700px) {
+    .home-container {
+      height: auto;
+      margin-bottom: 30px;
     }
   }
